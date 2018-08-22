@@ -1,0 +1,141 @@
+/*一、 弹性盒子布局 */
+.flex {
+    display: flex;
+}
+
+/* 等分 */
+.flex-item {
+    flex: 1;
+}
+
+/* 纵向 */
+.flex-direction {
+    flex-direction: column;
+}
+
+/* 居前 居中 */
+.flex-start-center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* 居前 居下 */
+.flex-start-end {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/* 居前 基线 */
+.flex-start-baseline {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+/* 居中 居上 */
+.flex-center-start {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* 居中 居中 */
+.flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 居中 居中 */
+.flex-center-end {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* 居中 基线 */
+.flex-center-baseline {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+/* 两边 居上 */
+.flex-between-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* 两边 居中 */
+.flex-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 两边 居下 */
+.flex-between-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* 两边 基线 */
+.flex-between-baseline {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* 等距环绕 居上 */
+.flex-around-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* 等距环绕 居中 */
+.flex-around-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 等距环绕 居下 */
+.flex-around-end {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* 等距环绕 基线 */
+.flex-around-baseline {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+/* 内联弹性盒子 */
+.iflex {
+    display: inline-flex;
+}
+
+/* 居中 */
+.iflex-center {
+    display: inline-flex;
+    align-items: center;
+}
+/* 居下 */
+.iflex-center {
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+/* 基线 */
+.iflex-baseline {
+    display: inline-flex;
+    align-items: baseline;
+}
